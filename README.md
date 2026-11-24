@@ -8,7 +8,9 @@ independiente de los demas: se puede ejecutar sin haber hecho las otras semanas.
 
 
 | Semana | Tema | Entregable |
-|--------|---------------------------------------------------------------------
+
+|--------|----------------------------------|----------------------------------|
+
 |   01  | Git y GitHub | hola.sh |
 
 |   02  | Fundamentos y sistema de archivos | explorar-sistema.sh |
