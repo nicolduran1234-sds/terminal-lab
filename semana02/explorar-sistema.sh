@@ -1,0 +1,8 @@
+#!/bin/bash
+# explorar-sistema.sh - Recorre la jerarquia del sistema y la documenta
+# Autor: Nicky
+# Fecha: 2026-11-24
+# Uso: ./explorar-sistema.sh
+# Descripcion: recorre /etc, /var, /home, /bin, /tmp y /proc y documenta su funcion
+
+SEP="--------------------------------------------------"
