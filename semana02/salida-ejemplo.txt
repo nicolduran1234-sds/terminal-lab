@@ -1,0 +1,107 @@
+=== /etc ===
+/etc guarda archivos de configuracion del sistema en texto plano.
+total 124
+-rw-r--r-- 1 Nicky 🌸 197121  4351 Oct 26 15:03 DIR_COLORS
+-rw-r--r-- 1 Nicky 🌸 197121  2497 Oct 26 15:03 bash.bashrc
+-rw-r--r-- 1 Nicky 🌸 197121  1744 Oct 26 15:03 docx2txt.config
+-rw-r--r-- 1 Nicky 🌸 197121   272 Oct 26 15:03 fstab
+-rw-r--r-- 1 Nicky 🌸 197121   515 Oct 26 15:03 gitattributes
+-rw-r--r-- 1 Nicky 🌸 197121   401 Nov 23 22:31 gitconfig
+-rw-r--r-- 1 Nicky 🌸 197121   824 Apr  1  2024 hosts
+-rw-r--r-- 1 Nicky 🌸 197121  2576 Oct 26 15:03 inputrc
+-rw-r--r-- 1 Nicky 🌸 197121   365 Nov 23 22:31 install-options.txt
+-rw-r--r-- 1 Nicky 🌸 197121    40 Oct 26 15:03 minttyrc
+-rw-r--r-- 1 Nicky 🌸 197121   796 Oct 26 15:03 msystem
+drwxr-xr-x 1 Nicky 🌸 197121     0 Nov 23 22:31 msystem.d
+lrwxrwxrwx 1 Nicky 🌸 197121    12 Nov 23 22:31 mtab -> /proc/mounts
+-rw-r--r-- 1 Nicky 🌸 197121 12174 Oct 26 15:03 nanorc
+-rw-r--r-- 1 Nicky 🌸 197121   407 Apr  1  2024 networks
+-rw-r--r-- 1 Nicky 🌸 197121   211 Oct 26 15:03 nsswitch.conf
+-rw-r--r-- 1 Nicky 🌸 197121  4539 Oct 26 15:03 package-versions.txt
+drwxr-xr-x 1 Nicky 🌸 197121     0 Nov 23 22:30 pkcs11
+drwxr-xr-x 1 Nicky 🌸 197121     0 Nov 23 22:30 pki
+--------------------------------------------------
+
+=== /var ===
+/var guarda datos que cambian: registros, colas y caches.
+ls: cannot access '/var': No such file or directory
+--------------------------------------------------
+
+=== /home ===
+/home contiene un subdirectorio por usuario con sus archivos personales.
+ls: cannot access '/home': No such file or directory
+--------------------------------------------------
+
+=== /bin ===
+/bin contiene programas esenciales disponibles para todo usuario.
+total 94726
+-rwxr-xr-x 1 Nicky 🌸 197121   72418 Oct 26 15:03 [.exe
+-rwxr-xr-x 1 Nicky 🌸 197121    3075 Oct 26 15:03 addgnupghome
+-rwxr-xr-x 1 Nicky 🌸 197121    2217 Oct 26 15:03 applygnupgdefaults
+-rwxr-xr-x 1 Nicky 🌸 197121   35876 Oct 26 15:03 arch.exe
+-rwxr-xr-x 1 Nicky 🌸 197121     961 Oct 26 15:03 astextplain
+-rwxr-xr-x 1 Nicky 🌸 197121 1202279 Oct 26 15:03 awk.exe
+-rwxr-xr-x 1 Nicky 🌸 197121   55390 Oct 26 15:03 b2sum.exe
+-rwxr-xr-x 1 Nicky 🌸 197121    7339 Oct 26 15:03 backup
+-rwxr-xr-x 1 Nicky 🌸 197121   41819 Oct 26 15:03 base32.exe
+-rwxr-xr-x 1 Nicky 🌸 197121   41819 Oct 26 15:03 base64.exe
+-rwxr-xr-x 1 Nicky 🌸 197121   34883 Oct 26 15:03 basename.exe
+-rwxr-xr-x 1 Nicky 🌸 197121   49499 Oct 26 15:03 basenc.exe
+-rwxr-xr-x 1 Nicky 🌸 197121 2449886 Oct 26 15:03 bash.exe
+-rwxr-xr-x 1 Nicky 🌸 197121    6854 Oct 26 15:03 bashbug
+-rwxr-xr-x 1 Nicky 🌸 197121   92176 Oct 26 15:03 bunzip2.exe
+-rwxr-xr-x 1 Nicky 🌸 197121   92176 Oct 26 15:03 bzcat.exe
+-rwxr-xr-x 1 Nicky 🌸 197121    2140 Oct 26 15:03 bzcmp
+-rwxr-xr-x 1 Nicky 🌸 197121    2140 Oct 26 15:03 bzdiff
+-rwxr-xr-x 1 Nicky 🌸 197121    2054 Oct 26 15:03 bzegrep
+--------------------------------------------------
+
+=== /tmp ===
+/tmp contiene archivos temporales que se vacian al reiniciar.
+total 265M
+-rw-r--r-- 1 Nicky 🌸 197121    0 Nov 25 00:03 0a47f727-b153-4793-b2f0-dcf0ad5bec6c.tmp
+drwxr-xr-x 1 Nicky 🌸 197121    0 Jun  9 12:34 0eb4ec52-8c2b-41b9-9d33-926e7fa001fb_Digital.rar.1fb
+-rw-r--r-- 1 Nicky 🌸 197121  24K Nov 24 23:26 1ds_telemetry_public_v2.db
+drwxr-xr-x 1 Nicky 🌸 197121    0 Jun  9 12:31 1e30d76f-6863-40b5-b0be-bb8a9eaa94c8_Digital.rar.4c8
+-rw-r--r-- 1 Nicky 🌸 197121 145K Nov 24 23:24 42d649bc-5d00-40b4-ad71-9a64df550277.tmp
+-rw-r--r-- 1 Nicky 🌸 197121 631K Nov 25 00:07 7009c19e-b34b-4bf1-b43d-decf8d5d0322.tmp
+drwxr-xr-x 1 Nicky 🌸 197121    0 Nov 23 15:58 7f3411e3-dbae-45cf-bc0f-f810a1270f43_emulator-demo.rar.emulator-demo.rar
+drwxr-xr-x 1 Nicky 🌸 197121    0 Oct 12 15:15 Diagnostics
+-rw-r--r-- 1 Nicky 🌸 197121 173K Nov 16 10:40 LAPTOP-OA7A3TVV-20261116-1040.log
+-rw-r--r-- 1 Nicky 🌸 197121 142K Nov 16 11:39 LAPTOP-OA7A3TVV-20261116-1139.log
+-rw-r--r-- 1 Nicky 🌸 197121 142K Nov 16 11:40 LAPTOP-OA7A3TVV-20261116-1140.log
+-rw-r--r-- 1 Nicky 🌸 197121  71K Nov 16 13:29 LAPTOP-OA7A3TVV-20261116-1329.log
+-rw-r--r-- 1 Nicky 🌸 197121 161K Nov 16 13:32 LAPTOP-OA7A3TVV-20261116-1331.log
+-rw-r--r-- 1 Nicky 🌸 197121  97K Nov 20 08:28 LAPTOP-OA7A3TVV-20261120-0828.log
+-rw-r--r-- 1 Nicky 🌸 197121  84K Nov 20 08:34 LAPTOP-OA7A3TVV-20261120-0834.log
+drwxr-xr-x 1 Nicky 🌸 197121    0 Nov 18 12:15 ListSync
+drwxr-xr-x 1 Nicky 🌸 197121    0 Nov 19 17:49 Low
+-rw-r--r-- 1 Nicky 🌸 197121 2.9K Nov 24 20:55 MpCmdRun.log
+-rw-r--r-- 1 Nicky 🌸 197121  18K Nov 23 15:48 StructuredQuery.log
+--------------------------------------------------
+
+=== /proc ===
+/proc es un sistema virtual: el kernel genera su contenido al leerlo.
+total 0
+dr-xr-xr-x 3 Nicky 🌸        197121 0 Nov 24 23:49 1336
+dr-xr-xr-x 3 Nicky 🌸        197121 0 Nov 24 23:49 1337
+dr-xr-xr-x 3 Nicky 🌸        197121 0 Nov 25 00:16 1484
+dr-xr-xr-x 3 Nicky 🌸        197121 0 Nov 25 00:16 1494
+dr-xr-xr-x 3 Nicky 🌸        197121 0 Nov 25 00:16 1495
+-r--r--r-- 1 Nicky 🌸        197121 0 Nov 25 00:16 codesets
+-r--r--r-- 1 Nicky 🌸        197121 0 Nov 25 00:16 cpuinfo
+lrwxrwxrwx 1 Nicky 🌸        197121 0 Nov 25 00:16 cygdrive -> /
+-r--r--r-- 1 Nicky 🌸        197121 0 Nov 25 00:16 devices
+-r--r--r-- 1 Nicky 🌸        197121 0 Nov 25 00:16 filesystems
+-r--r--r-- 1 Nicky 🌸        197121 0 Nov 25 00:16 loadavg
+-r--r--r-- 1 Nicky 🌸        197121 0 Nov 25 00:16 locales
+-r--r--r-- 1 Nicky 🌸        197121 0 Nov 25 00:16 meminfo
+-r--r--r-- 1 Nicky 🌸        197121 0 Nov 25 00:16 misc
+lrwxrwxrwx 1 Nicky 🌸        197121 0 Nov 25 00:16 mounts -> self/mounts
+dr-xr-xr-x 2 Nicky 🌸        197121 0 Nov 25 00:16 net
+-r--r--r-- 1 Nicky 🌸        197121 0 Nov 25 00:16 partitions
+dr-xr-xr-x 8 Nicky 🌸        197121 0 Nov 25 00:16 registry
+dr-xr-xr-x 8 Nicky 🌸        197121 0 Nov 25 00:16 registry32
+--------------------------------------------------
+
+Exploracion completada.
