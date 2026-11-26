@@ -8,8 +8,8 @@
 
 set -euo pipefail
 
-# Directorio real del script, para que funcione tambien instalado en ~/bin
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Directorio del proyecto semana05 (funciona tanto local como instalado en ~/bin)
+SCRIPT_DIR="$HOME/terminal-lab/semana05"
 DIAS="${1:-7}"
 DEST="$SCRIPT_DIR/respaldos"
 mkdir -p "$DEST"
