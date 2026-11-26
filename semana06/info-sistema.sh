@@ -19,3 +19,17 @@ uso() {
 if [[ "${1:-}" == "-h" ]]; then
   uso
 fi
+
+OPCION="${1:-}"
+
+case "$OPCION" in
+  "")
+    echo "=== Sistema ==="
+    uname -a
+    head -n 5 /etc/os-release 2>/dev/null || true
+    uptime -p 2>/dev/null || uptime 2>/dev/null || true
+    free -h 2>/dev/null | head -n 2 || true
+    ;;
+esac
+
+exit 0
