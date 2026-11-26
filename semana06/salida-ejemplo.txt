@@ -1,0 +1,10 @@
+=== Sistema ===
+MINGW64_NT-10.0-26200 LAPTOP-OA7A3TVV 3.6.10-5a1665c8.x86_64 2026-09-28 10:40 UTC x86_64 Msys
+=== Usuario ===
+Nicky 🌸
+uid=197609(Nicky 🌸) gid=197121 groups=197121
+197121
+=== Disco ===
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  475G  117G  359G  25% /
+5.0K	.
