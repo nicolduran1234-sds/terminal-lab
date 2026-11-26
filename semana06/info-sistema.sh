@@ -30,6 +30,12 @@ case "$OPCION" in
     uptime -p 2>/dev/null || uptime 2>/dev/null || true
     free -h 2>/dev/null | head -n 2 || true
     ;;
+  -u)
+    echo "=== Usuario ==="
+    whoami
+    id
+    groups
+    ;;
 esac
 
 exit 0
